@@ -48,8 +48,11 @@ body {
     outline: none !important;
 }
 
-.userInput:focus {
-    outline: none !important;
+.userInput {
+    outline: 0
+}
+.userInput:webkit-direct-focus {
+    outline: 0 !important;
 }
 
 .play-button {
