@@ -56,14 +56,31 @@ body {
 }
 
 .play-button {
-    height: 50px;
-    width: 50px;
-    align-self: flex-end;
+
     cursor: pointer;
-    padding-bottom: 10px;
+    
 }
 
 .play-button__icon  {
     font-size: 50px;
+    
 
+}
+
+.bottom-bar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.change-button {
+    cursor: pointer;
+    font-size: 50px;
 }
