@@ -41,7 +41,7 @@ body {
 .test {
     height: 80vh;
     margin: 10px auto;
-    width: 70vw;   
+    width: 90vw;   
 }
 
 .test:focus {
@@ -60,6 +60,7 @@ body {
     width: 50px;
     align-self: flex-end;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
 .play-button__icon  {
