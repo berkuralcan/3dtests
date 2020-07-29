@@ -34,7 +34,7 @@ playButton.addEventListener("click", function() {
 const changed = function() {
     console.log("Performing change")
     if(isChanged) {
-        mainTest.setAttribute("src", "test.glb")
+        mainTest.setAttribute("src", "test2.glb")
     } else {
         mainTest.setAttribute("src", "test4.glb")
     }
