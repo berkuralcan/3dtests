@@ -35,8 +35,10 @@ const changed = function() {
     console.log("Performing change")
     if(isChanged) {
         mainTest.setAttribute("src", "test2.glb")
+         mainTest.setAttribute("ios-src", "test2.usdz")
     } else {
         mainTest.setAttribute("src", "test4.glb")
+        mainTest.setAttribute("ios-src", "test4.usdz")
     }
 }
 
